@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    background-color: rgb(255, 248, 239);
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h6 {
+    font-size: large;
+}
+
+.viev {
+    display: flex; 
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(128, 156, 216);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(146, 146, 255);
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.lesson {
+    display: flex; flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    width: 270px;
+    height: 150px;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    box-shadow: 0 0 5px rgba(97, 97, 97, 0.5);
+}
+
+.main1 {
+    display: flex;
+    background-color: rgb(212, 212, 212);
+    width: 54%;
+    height: 530px;
+    flex-wrap: wrap;
+}
+
+.h {
+    width: 100%;
+    margin-left: 40px;
+}
