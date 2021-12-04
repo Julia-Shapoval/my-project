@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <picture>
+        <source srcset="./1300x200.jpg" type="image/jpeg" media="(min-width:1230px)">
+        <source srcset="./400x600.jpg" type="image/jpeg" media="(max-width:990px)">
+        <source srcset="./800x400.jpg" type="image/jpeg" media="(min-width:992px)">
+        
+        <img src="./1300x200.jpg" alt="">
+    </picture>
+    
+    <div class="cards">
+        <div class="cards_row">
+            <div class="cards_column">
+                <div class="cards_item">
+                    <div class="cards_image">
+                        <img src="./400x600.jpg" alt="">
+                    </div>
+                    <div class="cards_body">
+                        <p>Здесь кроется картинка с разрешением <strong>400*600</strong></p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="cards_column">
+                <div class="cards_item">
+                    <div class="cards_image">
+                        <img src="./400x600.jpg" alt="">
+                    </div>
+                    <div class="cards_body">
+                        <p>Здесь кроется картинка с разрешением <strong>400*600</strong></p>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="cards_row">
+            <div class="cards_column">
+                <div class="cards_item">
+                    <div class="cards_image">
+                        <img src="./800x400.jpg" alt="">
+                    </div>
+                    <div class="cards_body">
+                        <p>Здесь кроется картинка с разрешением <strong>800*400</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="cards_row">
+            <div class="cards_column">
+                <div class="cards_item">
+                    <div class="cards_image">
+                        <img src="./1300x200.jpg" alt="">
+                    </div>
+                    <div class="cards_body">
+                        <p>Здесь кроется картинка с разрешением <strong>1300*200</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

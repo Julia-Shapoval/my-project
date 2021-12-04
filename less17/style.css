@@ -1,0 +1,25 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+}
+.card_item {
+  width: 200px;
+}
+.card_row {
+  display: flex;
+}
+.cards_image {
+  margin: 0px 0px 20px 0px;
+  padding: 0px 0px 58% 0px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cards_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
