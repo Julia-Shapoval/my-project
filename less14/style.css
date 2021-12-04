@@ -1,0 +1,158 @@
+body {
+    max-width: 100%;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.block {
+    color: aliceblue;
+    margin: 5px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    margin: 10px;
+    font-size: medium;
+    
+}
+
+
+.main {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: auto;
+    background-color: aliceblue;
+}
+
+.right {
+    width: 30%;
+    height: auto;
+    background-color: black;
+    color: aliceblue;
+}
+
+.c {
+    display: flex;
+    background-color: black;
+    height: 65px;
+    width: 360px;
+    color: aliceblue;
+    align-items: center;
+}
+
+.cards {
+    display: flex; flex-wrap: wrap;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.white {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    height: 160px;
+    width: 356px;
+    border: 2px solid black;
+}
+
+.card {
+    margin: 10px;
+}
+@media screen and (max-width: 760px){
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .right {
+        height: 100%;
+        width: 100%;
+    }
+    .left {
+        width: 100%;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+         align-items: center;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    a {
+        border: 1px solid white;
+        padding: 5px;
+        height: auto;
+        text-align: center;
+        width: 350px;
+    }
+    .white {
+    height: 150px;
+    width: 346px;
+    }
+    .c {
+    height: 60px;
+    width: 350px;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1100px){
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .right {
+        height: 100%;
+        width: 100%;
+    }
+    .left {
+        width: 100%;
+    }
+    header {
+        display: flex;
+        background-color: black;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+    a {
+        border: 1px solid white;
+        padding: 5px;
+        height: auto;
+        text-align: center;
+        width: 800px;
+    }
+    .white {
+    height: 150px;
+    width: 346px;
+    }
+    .c {
+    height: 60px;
+    width: 350px;
+    }
+}
