@@ -1,0 +1,85 @@
+.body {
+    display:flex;
+    background-color: rgb(255, 251, 188);
+    align-items: center;
+}
+
+.first {
+    display: flex;
+    background-color: rgb(198, 246, 250);
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.f, .in, .t {
+    display: flex;
+     width: 2em;
+     height: 2em;
+     border: 1px solid rgb(0, 0, 0);
+     border-radius: 50%;
+     align-items: center;
+     justify-content: center;
+     margin: 18px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    margin: 13px;
+}
+
+.form {
+     display: flex;
+     align-items: center;
+    flex-direction: column;
+}
+
+.email {
+    margin: 7px 0px 23px;
+    border: none;
+    height: 40px;
+}
+
+.tel {
+    margin: 0px 0px 23px;
+    border: none;
+    height: 40px;
+}
+
+p {
+    font-size: small;
+}
+
+.contme {
+    display: flex;
+     width: 8em;
+     height: 2em;
+     border: 1px solid rgb(0, 0, 0);
+     border-radius: 13px;
+     align-items: center;
+     justify-content: center;
+     margin: 18px;
+}
+
+.second {
+     display: flex;
+    background-color: rgb(18, 187, 136);
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+     width: 6em;
+     height: 2em;
+     border: 1px solid rgb(0, 0, 0);
+     border-radius: 13px;
+     align-items: center;
+     justify-content: center;
+     margin: 10px;
+}
